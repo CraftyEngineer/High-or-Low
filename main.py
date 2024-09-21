@@ -34,7 +34,7 @@ def checking_guess(guess, number):
 
 
 number=random.randint(1,100)
-print(number)
+# print(number)
 while turns>0:
   guess=int(input("\nMake a guess: "))
   checking_guess(guess, number)
